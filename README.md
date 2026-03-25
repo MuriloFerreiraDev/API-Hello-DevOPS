@@ -8,7 +8,7 @@ A simple REST API built with Spring Boot, containerized with Docker, and deploye
 
 | Technology | Purpose |
 |---|---|
-| **Java 17** | Programming language |
+| **Java 21** | Programming language |
 | **Spring Boot 4.0.4** | REST API framework |
 | **Maven** | Dependency management |
 | **Docker** | Containerization |
