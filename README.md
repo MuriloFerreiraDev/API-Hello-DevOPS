@@ -148,10 +148,8 @@ The application runs on **AWS EKS** with the following configuration:
 
 ## 👨‍💻 Author
 
-**Murilo** — studying to become a great DevOps Engineer 🚀
+**Murilo** —  DevOps Engineer 🚀
 
 ---
 
 ## 📄 License
-
-This project is for educational purposes.
