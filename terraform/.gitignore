@@ -1,0 +1,10 @@
+# Providers e plugins (muito grandes)
+.terraform/
+.terraform.lock.hcl
+
+# State files (contém informações sensíveis)
+*.tfstate
+*.tfstate.backup
+
+# Variáveis sensíveis
+*.tfvars
