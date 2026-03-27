@@ -6,15 +6,17 @@ A simple REST API built with Spring Boot, containerized with Docker, and deploye
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| **Java 21** | Programming language |
+| Technology            | Purpose |
+|-----------------------|---|
+| **Java 21**           | Programming language |
 | **Spring Boot 4.0.4** | REST API framework |
-| **Maven** | Dependency management |
-| **Docker** | Containerization |
-| **AWS ECR** | Container image registry |
-| **AWS EKS** | Kubernetes on AWS |
-| **GitHub Actions** | CI/CD pipeline |
+| **Maven**             | Dependency management |
+| **Docker**            | Containerization |
+| **AWS ECR**           | Container image registry |
+| **AWS EKS**           | Kubernetes on AWS |
+| **GitHub Actions**    | CI/CD pipeline |
+| **Terraform**         | CI/CD pipeline |
+
 
 ---
 
@@ -51,7 +53,7 @@ muriloDevOps/
 
 ```bash
 GET /hello
-→ "Hello from Kubernetes! 🚀"
+→ "Hello from DevOps Murilo! 🚀"
 
 GET /health
 → "OK"
@@ -62,7 +64,7 @@ GET /health
 ## ▶️ Running Locally
 
 ### Prerequisites
-- Java 17+
+- Java 21+
 - Maven 3.9+
 
 ### Steps
