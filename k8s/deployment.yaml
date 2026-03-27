@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-hello-devops
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-hello-devops
+  template:
+    metadata:
+      labels:
+        app: api-hello-devops
+    spec:
+      containers:
+        - name: api-hello-devops
+          image: 029953329959.dkr.ecr.us-east-1.amazonaws.com/api-hello-devops:latest
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8080
+            initialDelaySeconds: 30
+            periodSeconds: 10
