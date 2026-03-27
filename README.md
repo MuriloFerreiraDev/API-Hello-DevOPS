@@ -15,7 +15,7 @@ A simple REST API built with Spring Boot, containerized with Docker, and deploye
 | **AWS ECR**           | Container image registry |
 | **AWS EKS**           | Kubernetes on AWS |
 | **GitHub Actions**    | CI/CD pipeline |
-| **Terraform**         | CI/CD pipeline |
+| **Terraform**         | Infrastructure as Code|
 
 
 ---
