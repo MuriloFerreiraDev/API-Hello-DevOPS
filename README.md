@@ -152,6 +152,4 @@ The application runs on **AWS EKS** with the following configuration:
 
 **Murilo** —  DevOps Engineer 🚀
 
----
 
-## 📄 License
